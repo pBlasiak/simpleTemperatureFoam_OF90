@@ -132,7 +132,7 @@ public:
     // Member Functions
 
         //- Update the patch pressure gradient field from the given snGradp
-        virtual void updateCoeffs(const scalarField& snGradp);
+        //virtual void updateCoeffs(const scalarField& snGradp);
 
         //- Update the patch pressure gradient field
         virtual void updateCoeffs();
